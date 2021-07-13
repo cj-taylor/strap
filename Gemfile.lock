@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     awesome_print (1.7.0)
     coderay (1.1.1)
     faraday (0.10.1)
@@ -35,7 +35,7 @@ GEM
     method_source (0.8.2)
     multi_json (1.12.1)
     multi_xml (0.6.0)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     nenv (0.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -61,7 +61,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    public_suffix (2.0.5)
+    public_suffix (4.0.6)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -70,9 +70,9 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     ruby_dep (1.5.0)
-    sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
-      faraday (~> 0.8, < 1.0)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
     shellany (0.0.1)
     sinatra (1.4.7)
       rack (~> 1.5)
